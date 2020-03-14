@@ -1,0 +1,102 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #B7D8D6;
+}
+
+
+/*Containers*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+header {
+    background: #4D6466;
+    color: #EEF3DB;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FE615A 3px solid;
+}
+
+header a {
+    color: #EEF3DB;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px
+}
+
+header .nameBanner {
+    float: left;
+}
+
+header .nameBanner h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: #FE615A;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #FE615A;
+    font-weight: bold;
+}
+
+
+/* Introduction */
+
+#introduction {
+    min-height: 400px;
+    background-image: url("../img/intro_bg.JPG");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #EEF3DB;
+    border-bottom: #FE615A 3px solid;
+}
+
+#introduction h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#introduction p {
+    font-size: 20px;
+}
+
+#aboutme {
+    padding: 15px;
+    color: #EEF3DB;
+    background: #789E9E;
+    border-bottom: #FE615A 3px solid;
+}
+
+#aboutme h1 {
+    font-weight: bold;
+}
