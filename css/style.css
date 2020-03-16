@@ -2,7 +2,7 @@ body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #B7D8D6;
+    background-color: #ffffff;
 }
 
 
@@ -77,7 +77,6 @@ header a:hover {
     background-size: cover;
     text-align: center;
     color: #EEF3DB;
-    border-bottom: #FE615A 3px solid;
 }
 
 #introduction h1 {
@@ -90,13 +89,35 @@ header a:hover {
     font-size: 20px;
 }
 
+
+/* About Me */
+
 #aboutme {
     padding: 15px;
     color: #EEF3DB;
-    background: #789E9E;
-    border-bottom: #FE615A 3px solid;
+    background: #4D6466;
 }
 
 #aboutme h1 {
     font-weight: bold;
+}
+
+
+/* Technologies */
+
+#technologies {
+    margin-top: 20px;
+}
+
+#technologies .technology {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+}
+
+#technologies .technology img {
+    width: 100px;
+    height: 100px;
+    /*41:49, Time of Tutorial: https://www.youtube.com/watch?v=Wm6CUkswsNw*/
 }
