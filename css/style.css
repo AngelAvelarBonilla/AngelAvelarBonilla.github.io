@@ -102,6 +102,10 @@ header a:hover {
     font-weight: bold;
 }
 
+#aboutme p{
+    width: 50%;
+}
+
 
 /* Technologies */
 
@@ -111,13 +115,21 @@ header a:hover {
 
 #technologies .technology {
     float: left;
-    width: 15%;
-    padding: 10px;
+    width: 20%;
+    padding:20px;
     text-align: center;
 }
 
 #technologies .technology img {
     width: 100px;
     height: 100px;
-    /*41:49, Time of Tutorial: https://www.youtube.com/watch?v=Wm6CUkswsNw*/
+    /*41:49, Time of Tutorial: */
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: #FE615A;
+    text-align: center;
 }
