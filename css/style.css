@@ -75,6 +75,7 @@ header a:hover {
     background-image: url("../img/intro_bg.JPG");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     color: #EEF3DB;
 }
@@ -100,10 +101,13 @@ header a:hover {
 
 #aboutme h1 {
     font-weight: bold;
+    text-align: center;
 }
 
-#aboutme p{
-    width: 50%;
+#aboutme p {
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
 }
 
 
@@ -116,20 +120,19 @@ header a:hover {
 #technologies .technology {
     float: left;
     width: 20%;
-    padding:20px;
+    padding: 2.5%;
     text-align: center;
 }
 
 #technologies .technology img {
     width: 100px;
     height: 100px;
-    /*41:49, Time of Tutorial: */
 }
 
-footer{
+footer {
     padding: 20px;
     margin-top: 20px;
-    color:#ffffff;
+    color: #ffffff;
     background-color: #FE615A;
     text-align: center;
 }
