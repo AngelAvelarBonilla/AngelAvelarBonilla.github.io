@@ -72,7 +72,7 @@ header a:hover {
 
 #introduction {
     min-height: 400px;
-    background-image: url("../img/intro_bg.JPG");
+    background-image: url("../img/intro_bg.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
