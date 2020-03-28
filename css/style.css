@@ -105,9 +105,11 @@ header a:hover {
 }
 
 #aboutme p {
-    width: 100%;
+    
     font-size: 17px;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -129,6 +131,13 @@ header a:hover {
     height: 100px;
 }
 
+/* Experience */
+
+#experience {
+    margin-top: 20px;
+    background: #4D6466;
+    color: #EEF3DB;
+}
 footer {
     padding: 20px;
     margin-top: 20px;
