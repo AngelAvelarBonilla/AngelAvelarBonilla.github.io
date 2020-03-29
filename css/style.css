@@ -105,7 +105,6 @@ header a:hover {
 }
 
 #aboutme p {
-    
     font-size: 17px;
     text-align: center;
     padding-left: 10%;
@@ -117,6 +116,10 @@ header a:hover {
 
 #technologies {
     margin-top: 20px;
+}
+
+#technologies h1 {
+    text-align: center;
 }
 
 #technologies .technology {
@@ -134,13 +137,47 @@ header a:hover {
 /* Experience */
 
 #experience {
-    margin-top: 20px;
+    padding: 20px;
     background: #4D6466;
     color: #EEF3DB;
 }
+
+#experience h1 {
+    text-align: center;
+}
+
+#experience .job {
+    width: 90%;
+    margin: auto;
+}
+
+#experience .job table {
+    width: 65%;
+    margin: auto;
+    color: #EEF3DB;
+    text-align: center;
+
+    /*DEBUG
+    border: 10px solid black;
+    */
+
+}
+
+#experience .job img {
+    width: 120%;
+    border: 2px solid #FE615A;
+}
+
+#experience .job p {
+    margin: auto;
+    width: 50%;
+}
+
+
+
 footer {
     padding: 20px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     color: #ffffff;
     background-color: #FE615A;
     text-align: center;
